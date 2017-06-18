@@ -1,0 +1,9 @@
+CREATE TABLE tests (
+ id INTEGER PRIMARY KEY,
+ test TEXT NOT NONE,
+ a TEXT NOT NONE,
+ b TEXT,
+ c TEXT,
+ d TEXT,
+ answer INTEGER NOT NONE
+)
